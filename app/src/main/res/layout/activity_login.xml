@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/LoginActivity_tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_title"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/LoginActivity_ivNoSmoking"
+        android:layout_width="267dp"
+        android:layout_height="287dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginActivity_tvTitle"
+        app:srcCompat="@drawable/no_smoking" />
+
+    <EditText
+        android:id="@+id/LoginActivity_etId"
+        android:layout_width="193dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/id"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginActivity_ivNoSmoking" />
+
+    <EditText
+        android:id="@+id/LoginActivity_etPwd"
+        android:layout_width="193dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="@string/pwd"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/LoginActivity_etId"
+        app:layout_constraintTop_toBottomOf="@+id/LoginActivity_etId" />
+
+    <Button
+        android:id="@+id/LoginActivity_btLogin"
+        android:layout_width="174dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginActivity_etPwd" />
+
+    <TextView
+        android:id="@+id/LoginActivity_tvNoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/no_id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginActivity_btLogin" />
+
+    <TextView
+        android:id="@+id/LoginActivity_tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/register"
+        android:textColor="#2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/LoginActivity_tvNoId"
+        app:layout_constraintTop_toTopOf="@+id/LoginActivity_tvNoId" />
+</androidx.constraintlayout.widget.ConstraintLayout>

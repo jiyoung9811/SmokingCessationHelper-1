@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ContactFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/ContactFragment_svContactList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="100dp"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!-- android:id="@android:id/list" 변경 금지 -->
+                <ListView
+                    android:id="@android:id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:choiceMode= "multipleChoice" >
+                </ListView>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/ContactFragment_btAddContact"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="@string/add"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ContactFragment_svContactList" />
+        <Button
+            android:id="@+id/ContactFragment_btDelContact"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="@string/del"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ContactFragment_svContactList" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SmokingCessationHelper</string>
+    <string name="app_title">금연 도우미</string>
+    <string name="add">생성</string>
+    <string name="del">삭제</string>
+    <string name="do_register">가입하기</string>
+    <string name="email">E-mail</string>
+    <string name="id">Name</string>
+    <string name="login">로그인</string>
+    <string name="name">이름</string>
+    <string name="no_id">아이디가 없으신가요?</string>
+    <string name="optional">선택</string>
+    <string name="phone_number">전화번호</string>
+    <string name="pwd">Password</string>
+    <string name="register">회원가입</string>
+    <string name="register_title">Create an account</string>
+    <string name="required">필수</string>
+    <string name="ok">확인</string>
+    <string name="select_image">소중한 애완동물 or 사람 사진 선택</string>
+    <string name="no_smoking_start">금연 시작</string>
+
+</resources>
