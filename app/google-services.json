@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "891225629590",
+    "firebase_url": "https://smokingcessationhelper.firebaseio.com",
+    "project_id": "smokingcessationhelper",
+    "storage_bucket": "smokingcessationhelper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891225629590:android:a5623c32296b73660f33b7",
+        "android_client_info": {
+          "package_name": "com.example.smokingcessationhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891225629590-mh15h7pjh4nsfoipvl5ui2e49k6m0ili.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwL_hHFnq4xEyOQx3i-Dk17uElIjv_Xis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891225629590-mh15h7pjh4nsfoipvl5ui2e49k6m0ili.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
